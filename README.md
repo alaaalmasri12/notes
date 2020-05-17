@@ -1,42 +1,37 @@
-# Node Ecosystem, TDD, CI/CD
+# LAB - Class 1
 
-Application development in the Node.js ecosystem, including the writing of modular code using CommonJS modules, writing tests to assert code quality, setting up and working in a "Continuous Integration"  environment (Github Actions).
+## Project: lab-01
 
-## Learning Objectives
+### Author: Alaa almasri
 
-### Students will be able to
+### Links and Resources
 
-#### Describe and Define
+- [submission PR](https://github.com/alaaalmasri12/notes/pull/1)
+- [ci/cd](http://xyz.com) (GitHub Actions)
+- [back-end server url](http://xyz.com) (when applicable)
+- [front-end application](http://xyz.com) (when applicable)
 
-- Node and the V8 Engine
+### Setup
 
-#### Execute
+#### `.env` requirements (where applicable)
 
-- Setup a Node.js Package using npm
-- Create CommonJS modules
+i.e.
 
-## Today's Outline
+- `PORT` - Port Number
+- `MONGODB_URI` - URL to the running mongo instance/db
 
-<!-- To Be Completed By Instructor -->
+#### How to initialize/run your application (where applicable)
 
-### Importing and Exporting Modules
+- e.g. `node index.js`
 
-If one module **exports** a function or an object ...
+#### How to use your library (where applicable)
 
-```javascript
-// person.js
-const person = {};
+#### Tests
 
-person.walk = function() {
-  return 'walking';
-}
+- How do you run tests?
+- Any tests of note?
+- Describe any tests that you did not complete, skipped, etc
 
-module.exports = person;
-```
+#### UML
 
-Another module can **import** and use that function or object
-
-```javascript
-const human = require('./person.js'))
-console.log( human.walk() );  // prints 'walking'
-```
+Link to an image of the UML for your application and response to events
