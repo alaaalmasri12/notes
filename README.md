@@ -7,10 +7,6 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/alaaalmasri12/notes/pull/1)
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
-
 ### Setup
 
 #### `.env` requirements (where applicable)
@@ -33,5 +29,4 @@ i.e.
 - Describe any tests that you did not complete, skipped, etc
 
 #### UML
-
-Link to an image of the UML for your application and response to events
+![UML Diagram](assets/lab-01.png)

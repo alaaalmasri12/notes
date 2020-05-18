@@ -5,5 +5,5 @@ const notes =  require('./lib/notes.js');
 
 const options = new Input();
 let Notes=new notes();
-let object=options.getkeys()
+let object=options.getkeys();
 Notes.execute(object);

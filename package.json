@@ -5,10 +5,10 @@
   "main": "shebang.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint-me": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'"
   },
   "keywords": [],
-  "author": "Rawan Nujoom <rawan.nujoom@gmail.com>",
+  "author": "alaa almasri",
   "license": "ISC",
   "dependencies": {
     "is-url": "^1.2.4",
