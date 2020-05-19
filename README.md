@@ -6,8 +6,9 @@
 
 ### Links and Resources
 
-- [submission PR]https://github.com/alaaalmasri12/notes/pull/4)
-- [ci/cd](https://github.com/alaaalmasri12/notes/runs/687444301?check_suite_focus=true) (GitHub Actions)
+
+- [submission PR](https://github.com/alaaalmasri12/notes/pull/5)
+- [ci/cd](https://github.com/alaaalmasri12/notes/runs/687397744?check_suite_focus=true) (GitHub Actions)
 
 ### Setup
 
