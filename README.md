@@ -1,12 +1,15 @@
 # LAB - Class 1
 
-## Project: lab-01
+## Project: lab-02
 
 ### Author: Alaa almasri
 
 ### Links and Resources
 
-- [submission PR](https://github.com/alaaalmasri12/notes/pull/1)
+
+- [submission PR](https://github.com/alaaalmasri12/notes/pull/5)
+- [ci/cd](https://github.com/alaaalmasri12/notes/runs/687397744?check_suite_focus=true) (GitHub Actions)
+
 ### Setup
 
 #### `.env` requirements (where applicable)
@@ -29,4 +32,5 @@ i.e.
 - Describe any tests that you did not complete, skipped, etc
 
 #### UML
-![UML Diagram](assets/lab-01.png)
+![shift](assets/class-02.jpg)
+
