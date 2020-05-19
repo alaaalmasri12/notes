@@ -1,6 +1,6 @@
 # LAB - Class 1
 
-## Project: lab-01
+## Project: lab-02
 
 ### Author: Alaa almasri
 
@@ -8,8 +8,6 @@
 
 - [submission PR](https://github.com/alaaalmasri12/notes/pull/1)
 - [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
 
 ### Setup
 
@@ -33,5 +31,5 @@ i.e.
 - Describe any tests that you did not complete, skipped, etc
 
 #### UML
+![shift](assets/class-02.jpg)
 
-Link to an image of the UML for your application and response to events
