@@ -1,0 +1,22 @@
+{
+  "name": "class-01",
+  "version": "1.0.0",
+  "description": "Application development in the Node.js ecosystem, including the writing of modular code using CommonJS modules, writing tests to assert code quality, setting up and working in a \"Continuous Integration\"  environment (Github Actions).",
+  "main": "shebang.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+  },
+  "keywords": [],
+  "author": "alaa almasri",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "is-url": "^1.2.4",
+    "jest": "^26.0.1",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
