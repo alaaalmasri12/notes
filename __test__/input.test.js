@@ -6,12 +6,10 @@ describe('Input Module', ()=> {
     
   it('Given good input The Class valid() method returns true', ()=> {
       
-    let randominput=faker.random.word();
     expect(options.valid('add')).toEqual(true);
   });
   it('Given bad input The Class valid() method returns false', ()=> {
       
-    let randominput=faker.random.word();
 
     expect(options.valid()).toEqual(false);
   });
@@ -20,8 +18,8 @@ describe('Input Module', ()=> {
 
 
     let newinstance={
-      'action':randomaction,
-      'payload':randompayload,
+      'action':'add',
+      'payload':'hello there',
     };
     expect(newinstance).toEqual(newinstance);
 
