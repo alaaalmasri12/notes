@@ -1,6 +1,6 @@
-# LAB - Class 1
+# LAB - Class 3
 
-## Project: lab-02
+## Project: lab-03
 
 ### Author: Alaa almasri
 
