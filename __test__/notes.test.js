@@ -1,9 +1,6 @@
 'use strict';
 const Notes = require('../lib/notes.js');
-const Notess=require('../lib/models/notes-schema.js');
-const Input = require('../lib/input.js');
 const mongoose=require('mongoose');
-const options = new Input();
 const MONGOSE_URI='mongodb://localhost:27017/notes';
 mongoose.connect(MONGOSE_URI,{useNewUrlParser:true,useUnifiedTopology:true});
 
@@ -13,9 +10,29 @@ jest.spyOn(global.console, 'log');
 describe('node Mdule', ()=> {
 
   it('add() will add an object with an id', ()=> {
-    expect(notes.add()).toEqual(Object);
+    let object={note:'add', catagory:'javascript'};
+    notes.add(object).
+      then(()=>{
+        expect(console.log).toHaveBeenCalled();
+
+      });
   }); 
   it('delete() will delete an object with an id', ()=> {
-    expect(notes.delete('5ec499cfe312ed339f2c6689')).toEqual(true);
-  });            
-});
+    let object={note:'add', catagory:'javascript'};
+    notes.delete(object).
+      then(()=>{
+        expect(console.log).toHaveBeenCalled();
+
+      });
+
+  }); 
+  it('list() will  display all the lists', ()=> {
+    let object={note:'alaa', catagory:'anime'};
+    notes.list(object).
+      then(()=>{
+        expect(console.log).toHaveBeenCalled();
+      });
+  });
+ 
+});    
+           

@@ -1,6 +1,6 @@
-# LAB - Class 3
+# LAB - Class 4
 
-## Project: lab-03
+## Project: lab-04
 
 ### Author: Alaa almasri
 
@@ -32,5 +32,5 @@ i.e.
 - Describe any tests that you did not complete, skipped, etc
 
 #### UML
-![shift](assets/class-02.jpg)
+![shift](assets/uml.png)
 

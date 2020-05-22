@@ -1,23 +1,39 @@
 {
-  "name": "class-01",
+  "name": "@ltuc/crud",
   "version": "1.0.0",
   "description": "Application development in the Node.js ecosystem, including the writing of modular code using CommonJS modules, writing tests to assert code quality, setting up and working in a \"Continuous Integration\"  environment (Github Actions).",
-  "main": "shebang.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --coverage --verbose",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "keywords": [],
   "author": "alaa almasri",
   "license": "ISC",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
     "faker": "^4.1.0",
+    "install": "^0.13.0",
     "is-url": "^1.2.4",
     "jest": "^26.0.1",
+    "jsdoc": "^3.6.4",
     "minimist": "^1.2.5",
     "mongoose": "^5.9.15"
   },
   "devDependencies": {
     "eslint": "^7.0.0"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaaalmasri12/notes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alaaalmasri12/notes/issues"
+  },
+  "homepage": "https://github.com/alaaalmasri12/notes#readme"
 }
