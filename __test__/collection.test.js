@@ -18,10 +18,10 @@ describe('note Model', ()=> {
     let obj = {text: 'i am number one', catagory: 'motvaational'};
     return note.create(obj)
       .then(record => {
-        return note.get(record._id)
+        return note.get(record.catagory)
           .then(NodeItem => {
-            Object.keys(obj).forEach(key=> {
-              expect(NodeItem[key]).toEqual(NodeItem[key]);
+            Object.keys(obj).forEach((key,index)=> {
+              expect(obj[key]).toEqual(NodeItem[index][key]);
             });
           });
       });
