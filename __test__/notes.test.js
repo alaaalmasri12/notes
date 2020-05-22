@@ -1,5 +1,8 @@
 'use strict';
 const Notes = require('../lib/notes.js');
+const Collection = require('../lib/models/notes-collection');
+const collection=new Collection(); 
+
 const mongoose=require('mongoose');
 const MONGOSE_URI='mongodb://localhost:27017/notes';
 mongoose.connect(MONGOSE_URI,{useNewUrlParser:true,useUnifiedTopology:true});
@@ -11,7 +14,7 @@ describe('node Mdule', ()=> {
 
   it('add() will add an object with an id', ()=> {
     let object={note:'add', catagory:'javascript'};
-    notes.add(object).
+    collection.create(object).
       then(()=>{
         expect(console.log).toHaveBeenCalled();
 
@@ -19,7 +22,7 @@ describe('node Mdule', ()=> {
   }); 
   it('delete() will delete an object with an id', ()=> {
     let object={note:'add', catagory:'javascript'};
-    notes.delete(object).
+    collection.delete(object).
       then(()=>{
         expect(console.log).toHaveBeenCalled();
 
