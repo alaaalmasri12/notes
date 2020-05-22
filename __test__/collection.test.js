@@ -27,6 +27,7 @@ describe('note Model', ()=> {
       });
 
   });
+  //
   
   it('can update() a food item()', ()=> {
     let obj = {text: 'i am number tow', catagory: 'unmotivational'};
