@@ -12,17 +12,18 @@
   "author": "alaa almasri",
   "license": "ISC",
   "dependencies": {
-    "@code-fellows/supergoose": "^1.0.2",
-    "faker": "^4.1.0",
-    "install": "^0.13.0",
-    "is-url": "^1.2.4",
     "jest": "^26.0.1",
     "jsdoc": "^3.6.4",
     "minimist": "^1.2.5",
-    "mongoose": "^5.9.15"
+    "mongoose": "^5.9.15",
+    "supergoose": "^0.2.6"
   },
   "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
     "eslint": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "directories": {
     "doc": "docs",
