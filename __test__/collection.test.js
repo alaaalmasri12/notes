@@ -27,34 +27,6 @@ describe('note Model', ()=> {
       });
 
   });
-  //
+ 
   
-  // it('can update() a food item()', ()=> {
-  //   let obj = {text: 'i am number tow', catagory: 'unmotivational'};
-  //   return note.create(obj)
-  //     .then(record => {
-  //       return note.update(record._id)
-  //         .then(NodeItem => {
-  //           Object.keys(obj).forEach(key=> {
-  //             expect(NodeItem[key]).toEqual(NodeItem[key]);
-  //           });
-  //         });
-  //     });
-      
-
 });
-  
-
-// it('can delete() a node item()', ()=> {
-//   let obj = {text: 'i am number tow', catagory: 'unmotivational'};
-//   return note.create(obj)
-//     .then(record => {
-//       return note.delete(record._id)
-//         .then(NodeItem => {
-//           expect(NodeItem).toEqual(undefined);
-//         });
-//     });
-      
-// });
-
-    
