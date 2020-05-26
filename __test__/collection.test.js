@@ -1,7 +1,7 @@
 'use strict';
 require('@code-fellows/supergoose');
 
-const Note = require('../lib/models/notes-collection');
+const Note = require('../lib/models/notes-collection.js');
 const note = new Note();
 describe('note Model', ()=> {
   it('can create() a new note item ', ()=> {
