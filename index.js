@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
+const mongoose=require('mongoose');
 const Input = require('./lib/input.js');
 const notes =  require('./lib/notes.js');
-const mongoose=require('mongoose');
 const options = new Input();
 // console.log(options);
 let Notes=new notes();
